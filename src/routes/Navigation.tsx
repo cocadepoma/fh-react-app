@@ -1,6 +1,6 @@
 import { BrowserRouter, NavLink, Redirect, Route, Switch } from 'react-router-dom';
 import logo from '../logo.svg';
-import { routes } from '../01-lazyload/router/routes';
+import { routes } from './routes';
 import { Suspense } from 'react';
 
 export const Navigation = () => {
