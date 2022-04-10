@@ -1,0 +1,86 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Paco",
+        "label": "First Name",
+        "value": "Pepón",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Pérez",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "email",
+        "placeholder": "Email",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favourite Game",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "Super Smash"
+            },
+            {
+                "id": 2,
+                "label": "Metal Gear"
+            },
+            {
+                "id": 3,
+                "label": "Resident Evil"
+            },
+            {
+                "id": 4,
+                "label": "God of War"
+            },
+            {
+                "id": 5,
+                "label": "Final Fantasy"
+            },
+            {
+                "id": 6,
+                "label": "The Last of Us"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]

@@ -8,7 +8,7 @@ interface Props {
   [x: string]: any;
 };
 
-export const MyTextInput = ({ label, placeholder, ...props }: Props) => {
+export const MyTextInput = ({ label, ...props }: Props) => {
   const [field] = useField(props);
   return (
     <>

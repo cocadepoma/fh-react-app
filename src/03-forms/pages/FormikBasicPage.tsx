@@ -46,7 +46,7 @@ export const FormikBasicPage = () => {
 
   return (
     <div>
-      <h1>Formik Basic Page</h1>
+      <h1>Formik Basic</h1>
 
       <form noValidate onSubmit={handleSubmit}>
         <label htmlFor="firstName">First Name</label>
